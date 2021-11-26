@@ -3,7 +3,8 @@
      <Header/>
     
    
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Body msg="Welcome to Your Vue.js App"/>
+    <Card/>
     
     <Footer/>
  
@@ -11,16 +12,18 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Body from '@/components/Body.vue'
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
+import Card from '@/components/Card.vue'
 
 
 export default {
   name: 'Home',
   components: {
-  HelloWorld,
+  Body,
   Header,
+  Card,
   Footer,
   
   }
