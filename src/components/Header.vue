@@ -4,7 +4,7 @@
       <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
           <router-link to="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-          <img class="bi me-2" width="40" height="32" alt="Vue logo" src="../assets/logo.png">
+          <img class="bi me-2" width="40" height="32" alt="Vue logo" src="../assets/img/logo.png">
             <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
           </router-link>
 
@@ -25,6 +25,12 @@
               <router-link to="/contact" class="nav-link text-white">
                 <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
                 Contact
+              </router-link>
+            </li>
+            <li>
+              <router-link to="/products" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
+                Products
               </router-link>
             </li>
             

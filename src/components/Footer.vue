@@ -1,6 +1,6 @@
 <template>
  
- <div class="footer mt-auto py-3 bg-secondary text-white link-light">
+ <div class="footer py-3 px-3 bg-secondary text-white link-light">
 
     <div class="row">
       <div class="col-2">
